@@ -1,0 +1,1361 @@
+ /* *{
+    border: 1px solid red !important;
+}   */
+html{
+    scroll-behavior: smooth !important;
+}
+@font-face{
+    src: url(chicken_quiche/Chicken\ Quiche.otf);
+    font-family: Chicken Quiche;
+}
+@font-face{
+    src: url(logobloqo2/Logobloqo2.ttf);
+    font-family: Logobloqo2;
+}
+.left-pro{
+    height: 650px; 
+    overflow:scroll;
+}
+
+.left-pro::-webkit-scrollbar {
+    display:none;
+}
+.babu{
+    background-image: url(images/Slide1.jpg) !important;
+    height: 600px !important;
+    width: 100% !important;
+}
+
+.babu1{
+    background-color: rgba(29, 28, 28, 0.923) !important;
+    height: 70px !important;
+    width: 100% !important;
+    background-size: 100% 100% !important;
+}
+.babu2{
+    background-image: url(images/Yo\ \(1\).jpg) !important;
+    height: 650px !important;
+    width: 100% !important;
+    background-size: 100% 100% !important;
+}
+.babu3{
+    background-image: url(images/banner10.jpg) !important;
+    height: 650px !important;
+    width: 100% !important;
+    background-size: 100% 100% !important;
+}
+.navbar{
+    background-color: rgba(29, 28, 28, 0.923) !important;
+    z-index: 1;   
+}
+.oyy{
+    background-color: black !important;
+    padding-bottom: 4% !important;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 500px !important;
+      background-size: 100% 100% !important;
+}
+.dropdown{
+    z-index: 9999 !important;
+}
+.dropdown-menu{
+    width: 100% !important;
+    height: 500px !important;
+}
+.btn-primary{
+    margin-left: 5% !important;
+    padding: -20% !important;
+    border: none !important;
+    background-color: black!important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche;
+}
+.btn-primary:hover{
+    background-color: rgba(255, 253, 253, 0.63) !important;
+    color: black !important;
+}
+.read{
+    margin-top: 2% !important;
+    margin-left: 15% !important ;
+}
+.btn-danger{
+    padding: -20% !important;
+    border: 3px solid white !important;
+    background-color: transparent !important;
+    font-size: 22px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin-right: 2% !important;
+}
+.btn-danger:hover{
+    background-color: white !important;
+    color: black !important;
+}
+.btn-secondary{
+    color: black !important;
+    padding: -20% !important;
+    border: 1px solid black !important;
+    background-color: transparent !important;
+    font-size: 22px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin-right: 2% !important;
+}
+.btn-secondary:hover{
+    background-color: pink !important;
+    color: black !important;
+    border: 1px solid white !important;
+}
+.btn-info{
+    color: black !important;
+    padding: -20% !important;
+    border: 1px solid black !important;
+    background-color: transparent !important;
+    font-size: 22px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin-right: 2% !important;
+}
+.btn-info:hover{
+    background-color: rgba(141, 141, 235, 0.993) !important;
+    color: white !important;
+    border: 1px solid black !important;
+}
+.nav-link{
+    font-family: Chicken Quiche !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 15px !important;
+    letter-spacing: 2px !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+.nav-item a span{
+    color: darkred !important;
+} 
+.text-uppercase{
+    font-family: Chicken Quiche !important;
+    color: rgba(197, 192, 192, 0.728) !important;
+    font-size: 22px !important;
+}
+.btn-warning.focus, .btn-warning:focus {
+    box-shadow: none !important ;
+}
+.signtop{
+    margin-right: 3px !important;
+    border: 1px solid white !important;
+    color: white !important;
+    padding: -20% !important;
+    background-color: transparent !important;
+    font-size: 20px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.signtop1{
+    margin-right: 3px !important;
+    border: 1px solid white !important;
+    color: white !important;
+    padding: -20% !important;
+    background-color: transparent !important;
+    font-size: 20px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.btn-warning:hover{
+    background-color: rgba(255, 253, 253, 0.99) !important;
+    color: black !important;
+    border: none !important;
+}
+.babu h4{
+    margin-left: 14% !important;
+    font-weight: 500 !important;
+    text-align: left !important;
+    font-size: 18px !important ;
+    color: white !important;
+    font-family: sans-serif;
+}
+.babu h3{
+    margin-top: 50% !important;
+    color: rgba(0, 0, 0, 0) !important;
+    font-family: Chicken Quiche ;
+}
+.nav-link .sale{
+    color: red !important;
+}
+.babu h1{
+    color: white !important;
+    font-size: 65px !important;
+    font-family: Chicken Quiche;
+    margin-top: 10% !important;
+    margin-left: 14% !important;
+}
+.babu3 h1{
+    color: white !important;
+    font-size: 65px !important;
+    font-family: Chicken Quiche;
+    margin-top: 10% !important;
+    margin-left: 14% !important;
+}
+.babu3 h2{
+    margin-top: -1.5% !important;
+    color: white !important;
+    font-size: 65px !important;
+    font-family: Chicken Quiche;
+    margin-left: 10% !important;
+
+}
+.babu h2{
+    margin-top: -1.5% !important;
+    color: white !important;
+    font-size: 65px !important;
+    font-family: Chicken Quiche;
+    margin-left: 10% !important;
+
+}
+.bon{
+    margin-left: 1% !important;
+}
+.joke h6{
+    background-color: rgba(110, 135, 182, 0.336) !important;
+    margin-top: 10% !important;
+    padding: 20%  !important;
+    color: black !important;
+    font-size: 27px !important;
+    font-family: Chicken Quiche !important ;
+}
+.joke button{
+    margin-top: 20px !important;
+    color: black !important;
+    font-size: 22px !important;
+    font-family: Chicken Quiche !important ;
+}
+.joke a{
+    color: black !important;
+    font-size: 22px !important;
+    font-family: Chicken Quiche !important ;
+}
+.joke h5{
+    margin-left: 20px!important;
+    color: black !important;
+    font-size: 22px !important;
+    font-family: Chicken Quiche !important ;
+}
+.joke a:hover{
+    text-decoration: black !important;
+}
+.promise{
+    border-radius: 2% !important;
+    background-color:white !important;
+    padding: 2% 1% 2% 1% !important;
+    /* margin-left: 3% !important; */
+}
+.promise h5{
+    margin-top: 3% !important;
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    color: black !important;
+}
+.promise h6{
+    margin-top: 3% !important;
+    font-size: 14px !important;
+    font-weight: 450 !important;
+    color: black !important;
+}
+.promise h6 img{
+    height: 20px !important;
+    width: 20px !important;
+}
+.promise1{
+   z-index: -1 !important;
+    border-radius: 1% !important;
+    background-color:rgba(0, 0, 0) !important;
+    padding: 2% 2% 2% 2% !important;
+    /* margin-left: 3% !important; */
+}
+.promise1 h5{
+    margin-top: 3% !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: white !important;
+}
+.promise1 h6{
+    margin-top: 3% !important;
+    font-size: 15px !important;
+    font-weight: 450 !important;
+    color: white !important;
+}
+.promise1 h6 img{
+    height: 20px !important;
+    width: 20px !important;
+}
+.play{
+    background-repeat: no-repeat !important;
+    background-image: url(images/cricket.jpg) !important;
+    height: 500px !important;
+   background-size: cover;
+}
+.play h1{
+    color: white !important;
+    font-size: 60px !important;
+    font-family: Chicken Quiche;
+    margin-top: 32% !important;
+    /* padding-left: 7% !important; */
+    margin-left: 2% !important;
+}
+.play p{
+    margin-left: 27% !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+    font-size: 18px !important ;
+    color: white !important;
+    font-family: sans-serif;
+    padding-bottom: 1% !important;
+}
+.pri{
+    margin: 1% 3% 1% 3% !important;
+}
+.pri h4{
+    font-size: 25px !important;
+    color: rgba(0, 0, 0, 0.758) !important;
+}
+.pri h2{
+    margin-top: 20px !important;
+    color: white !important;
+    font-size: 45px !important;
+    font-family: Chicken Quiche;  
+}
+.pri h3{
+    margin-top: 15px !important;
+    color: black !important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche; 
+    margin-left: 10% !important; 
+}
+.price1{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    height: 50px !important;
+    width: 100px !important;
+    background-color: yellow !important;
+    margin-left: 20% !important;
+}
+.price3{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    height: 50px !important;
+    width: 100px !important;
+    background-color: yellow !important;
+    margin-left: 80% !important;
+}
+
+.pri h5{
+    margin-top: -10px !important;
+    color: white !important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche; 
+    margin-left: 30% !important;
+}
+.cool1{
+    margin-top: 2% !important;
+    background-image: url(img/ball1.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 350px !important;
+    width: 100% !important;
+}
+.cool2{
+     margin-top: 2% !important;
+    background-image: url(img/ball2.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 350px !important;
+    width: 100% !important;
+}
+.cool3{
+     margin-top: 2% !important;
+    background-image: url(img/Ball3.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 350px !important;
+    width: 100% !important;
+}
+.cool4{
+     margin-top: 2% !important;
+    background-image: url(img/Ball4.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 350px !important;
+    width: 100% !important;
+}
+.carousel-item h2{
+    margin-bottom: 15% !important;
+    color: black !important;
+    font-size: 45px !important;
+    font-family: Chicken Quiche;
+    margin-left: 50% !important;
+
+}
+.carousel-item h3{
+    margin-bottom: 15% !important;
+    color: black !important;
+    font-size: 55px !important;
+    font-family: Chicken Quiche;
+    margin-left: 60% !important;
+
+}
+.carousel-item h4{
+    margin-bottom: 13% !important;
+    color: black !important;
+    font-size: 45px !important;
+    font-family: Chicken Quiche;
+    margin-right: 50% !important;
+
+}
+.pri a{
+    text-decoration: none !important;
+}
+.hot1{
+    border-radius: 2% !important;
+    background-image: url(images/equipment.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 642px !important;
+    width: 100% !important;
+}
+.hot2{
+    border-radius: 3% !important;
+    background-image: url(images/jutta.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 200px !important;
+    width: 100% !important;
+}
+.hot3{
+    border-radius: 3% !important;
+    background-image: url(images/bag.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 200px !important;
+    width: 100% !important;
+}
+.hot4{
+    border-radius: 3% !important;
+    background-image: url(images/watch.jpg) !important;
+    background-size: 100% 100% !important;
+    height: 200px !important;
+    width: 100% !important;
+}
+.hot1 h2{
+    padding-top: 30%  !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 63px !important;
+    font-family: Chicken Quiche;  
+}
+.hot2 h2{
+    text-align: right !important;
+    padding-right: 3% !important;
+    color: white !important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche;  
+}
+.hot3 h2{
+    padding-top: 2% !important;
+    text-align: right !important;
+    padding-right: 3% !important;
+    color: white !important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche;  
+}
+.hot4 h2{
+    padding-top: 2% !important;
+    text-align: right !important;
+    padding-right: 3% !important;
+    color: white !important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche;  
+}
+.hot1 h6{
+    padding-top: 2% !important;
+    text-align: right !important;
+    padding-top: 4%  !important;
+    text-align: center !important;
+    color: white !important;
+    font-size: 35px !important;
+    font-weight: 700 !important;
+    font-family: sans-serif !important;  
+}
+.hot2 h6{
+    padding-right: 3% !important;
+    text-align: right !important;
+    padding-top: 1%  !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-family: sans-serif !important;  
+}
+.hot3 h6{
+    padding-right: 3% !important;
+    text-align: right !important;
+    padding-top: 1%  !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-family: sans-serif !important;  
+}
+.hot4 h6{
+    padding-right: 3% !important;
+    text-align: right !important;
+    padding-top: 1%  !important;
+    color: white !important;
+    font-size: 20px !important;
+    font-family: sans-serif !important;  
+}
+.price2{
+    margin-left: 55% !important;
+    padding-right: -10% !important;
+    border: 1px solid blue !important;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+    height: 70px !important;
+    width: 100px !important;
+    background-color: yellow !important;
+}
+.hot1 h3{
+    padding-top: 1% !important;
+    color: black !important;
+    font-size: 35px !important;
+    font-family: Chicken Quiche; 
+    margin-left: 10% !important; 
+}
+.trend h2{
+    font-size: 30px !important;
+    color: rgba(0, 0, 0, 0.81) !important;
+    font-family: Chicken Quiche;
+    font-weight: 800 !important;
+}
+.trend h3{
+    font-weight: 800 !important;
+    padding-top: -5% !important;
+    font-size: 40px !important;
+    color: rgba(0, 0, 0, 0.81) !important;
+    font-family: Chicken Quiche;
+    padding-bottom: 30% !important;
+}
+.trend h4{
+    padding-top: 10% !important;
+    padding-left: 50% !important;
+    transform: rotate(270deg) !important;
+    font-size: 30px !important;
+    color: rgba(0, 0, 0, 0.26) !important;
+    font-family: Chicken Quiche;
+}
+.trend h5{
+    padding-top: 60% !important;
+    transform: rotate(270deg) !important;
+    font-size: 50px !important;
+    color: rgba(0, 0, 0, 0.26) !important;
+    font-family: Chicken Quiche;
+
+}
+.app{
+    background-color: rgba(127, 138, 148, 0.148) !important;
+    padding: 3% !important;
+}
+.app img{
+     height: 30px !important; 
+    width: 100px !important;
+}
+.app h6{
+    color: black !important;
+    font-size: 20px !important;
+    font-family: Chicken Quiche;
+    text-align: center !important;
+
+}
+.follow{
+    margin-top: 5% !important;
+    background-color: rgba(127, 138, 148, 0.148) !important;
+    padding: 3% !important;    
+}
+.follow h6{
+    color: black !important;
+    font-size: 20px !important;
+    font-family: Chicken Quiche;
+    padding-left: 4% !important;
+}
+.follow .row{
+    padding-left: 4% !important;
+    padding-bottom: 4% !important;
+}
+.follow a i{
+    color: rgba(48, 46, 46, 0.795) !important;
+    font-size: 35px !important;
+ }
+ .follow a i:hover{
+     color: black !important;
+ }
+.blog{
+    background-color: black !important;
+    text-align: center !important;
+    padding: 2% 0% 2% 0% !important;
+    width: 40% !important;
+    margin-left: 25% !important;
+    margin-bottom: 8% !important;
+    margin-top: 5% !important;
+}
+.blog a{
+    color: white !important;
+    font-family: Chicken Quiche;
+    text-decoration: none !important;
+ }
+.footer{
+    background-color: black !important;
+    padding-bottom: 1% !important;
+}
+.footer h5{
+    padding-top: 3% !important;
+    padding-bottom: 1% !important;
+    text-align: center !important;
+    font-family: Chicken Quiche;
+    font-size: 40px !important;
+    color: white;
+}
+.footer h2{     
+    
+    text-align: center !important;
+    font-size: 180px;
+    color: rgba(255, 255, 255, 0.46) !important;
+    font-family: Chicken Quiche;
+
+}
+.footer h6{
+    padding-bottom: 1% !important;
+    text-align: center !important;
+    font-family: Chicken Quiche;
+    font-size: 20px !important;
+    font-weight: 200 !important;
+    color: rgb(25, 182, 255) !important;
+}
+.footer h6 span{
+    color:rgb(59, 240, 35) !important ;
+}
+.footer p{
+    font-size: 18px !important;
+    color: white !important;
+    text-align: center !important;
+    padding-bottom: 3% !important;
+}
+.footer img{
+    height: 50px !important;
+    width: 50px !important;
+    background-size: 100% 100% !important;
+}
+.secure h2{   
+    font-family: 'Times New Roman', Times, serif !important;
+    margin-left: 10% !important;
+    font-size: 15px !important;
+}
+.secure h3{  
+    color: rgba(0, 0, 0, 0.56) !important;
+    font-family: 'Times New Roman', Times, serif !important ;
+    margin-left: 10% !important;
+    font-size: 15px !important;
+}
+.paymentoption{    
+    float: left !important;
+    margin-left: 3% !important;
+}
+.in h4{
+    font-size: 22px !important;
+    text-align: right !important;
+    font-family: Chicken Quiche;
+}
+.in a{
+    padding: 2% !important;
+    font-size: 15px !important;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+.in a:hover{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+.super h2{
+    font-weight: 900 !important;
+    font-family: Chicken Quiche !important;
+    font-size: 40px !important;
+    padding-top: 15% !important;
+}
+.super a{
+    color: rgba(0, 0, 0, 0.832) !important;
+    text-decoration: none !important;
+    font-family: Chicken Quiche !important;
+    font-size: 18px !important;
+    font-weight: 100 !important;
+}
+.super a:hover{
+    color: black !important;
+}
+.super p{
+    color: rgba(0, 0, 0, 0.832) !important;
+    text-decoration: none !important;
+    font-family: Chicken Quiche !important;
+    font-size: 18px !important;
+    font-weight: 100 !important;
+    cursor: pointer;
+}
+.running h2{
+    margin-top: 0.5% !important;
+    padding: 1% 0% 1% 2% !important;
+    font-family: Chicken Quiche !important;
+    font-size: 45px !important;
+    color: white !important;
+    background-color: black;
+    font-weight: 750 !important;
+}
+
+.Frequent h2{
+    width: 40% !important;
+    margin-top: 5% !important;
+    margin-left: 30% !important;
+    background-color: black !important;
+    color: white !important;
+    font-size: 35px !important;
+    padding: 2% 0% 2% 0% !important;
+    text-align: center;
+    font-family: Chicken Quiche !important;
+}
+.Frequent a:hover{
+    text-decoration: none !important;
+}
+.Frequent a .dabba:hover{
+    
+    border: 0.2px solid rgba(0, 0, 0, 0.607) !important;
+}
+
+.dabba{
+    margin: 8% 0% 8% 0% !important;
+    height: 120px !important;
+    width: 220px !important;
+    background-color: white !important;
+    border: 0.2px solid rgba(0, 0, 0, 0.207) !important;
+}
+.dabba img{
+    margin-left: 75px !important;
+    margin-top: 18px !important;
+    height: 60px !important;
+    width: auto !important;
+}
+.dabba h6{
+    text-align: center !important;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.86) !important;
+    font-family: Chicken Quiche ;
+    font-size: 15px !important;
+}
+.og h3{
+    font-family: Chicken Quiche;
+    font-size: 35px !important;
+    font-weight: 750 !important;
+    padding-bottom: 2px !important;
+}
+.og hr{
+    width: 80% !important;
+    margin-left: 3% !important;
+}
+.og a{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: rgba(0, 0, 0, 0.532) !important;
+    font-size: 20px !important;
+    padding-top: 3% !important;
+    margin-left: 3% !important;
+}
+.og a:hover{
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.832) !important;
+}
+.og .card-body{
+    font-size: 15px !important;
+    border: none !important;
+    margin-left: 3% !important;
+}
+.og .card-body hr{
+    width: 80% !important;
+    margin-left: -3% !important;
+
+}
+.termsconditions h1{
+    margin-top: 1% !important;
+    margin-left: 25% !important;
+    padding: 2% !important;
+    text-align: center !important;
+    font-family: Chicken Quiche !important;
+    background-color: black !important;
+    color: white !important;
+    width: 50% !important;
+    font-size: 55px !important;
+}
+
+.returnpolicy h1{
+    margin-left: 25% !important;
+    padding: 2% !important;
+    text-align: center !important;
+    font-family: Chicken Quiche !important;
+    background-color: black !important;
+    color: white !important;
+    width: 50% !important;
+    font-size: 55px !important;
+}
+.returnpolicy h3{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 30px !important;
+    font-weight: 900 !important;
+}
+.returnpolicy h5{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+}
+.termsconditions h4{
+    padding-top: 2% !important;
+    font-family: Chicken Quiche !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+.termsconditions p{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.returnpolicy p{
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+.returnpolicy h5{
+    font-family: 'Trebuchet MS' !important;
+    font-size: 19px !important;
+    font-weight: 850 !important;
+}
+.returnpolicy h6{
+    font-family: sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.returnpolicy h6 a{
+    color: black !important;
+    font-family: sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+.contactus h2{
+    margin-left: 13% !important;
+    padding: 3% !important;
+    text-align: center !important;
+    font-family: Chicken Quiche !important;
+    background-color: black !important;
+    color: white !important;
+    width: 80% !important;
+    font-size: 45px !important;
+}
+.contactus h6{
+    padding-top: 2% !important;
+    font-size: 30px !important;
+    font-weight: 750 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.contactus h4{
+    padding-top: 1% !important;
+    font-size: 25px !important;
+    font-weight: 750 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+.contactus h4 a {
+    color: rgb(26, 188, 209);
+    font-size: 25px !important;
+    font-weight: 750 !important;
+    font-family: Logobloqo2 !important;
+}
+.kutta img{
+  width: 100% !important;
+  height: auto !important;
+    background-size: 100% 100% !important;
+  margin-left: 1% !important;
+
+}
+.runningshoes1 h4{
+  padding-top: 3% !important;
+  font-family: Chicken Quiche !important;
+  font-size: 33px !important;
+}
+.runningshoes1 h6{
+  padding-top: 3% !important;
+  font-family: Chicken Quiche !important;
+  font-size: 28px !important;
+}
+.runningshoes1 a:hover{
+  text-decoration: none !important;
+}
+.runningshoes1 a h2:hover{
+  border: 1px solid black !important;
+}
+.size h2{
+  font-family: Chicken Quiche;
+  font-size: 18px !important;
+  text-align: center !important;
+  border: 1px solid rgba(0, 0, 0, 0.418) !important;
+  padding: 20px 38px 20px 30px  !important;  
+  width: 40px !important;
+  margin-right: 12px !important;
+}
+.cart select{
+  padding: 20% 55% 20% 10% !important;
+}
+.heart i{
+  font-size: 22px !important;
+  color: black !important;
+  font-weight: 900 !important;
+  border: 1px solid rgba(0, 0, 0, 0.418) !important;
+  padding: 14px 20px 14px 20px !important;
+}
+.heart i:hover{
+  border: 1px solid black !important;
+}
+.btn-light{
+    font-size: 22px !important;
+    font-family: Chicken Quiche !important;
+    margin-bottom: 2% !important;
+    padding: 3% 29% 3% 33%!important;
+    color: black !important;
+    background-color: tomato !important;
+
+}
+
+.btn-light:hover{
+  opacity: 0.8 !important;
+}
+.truck i{
+  font-size: 35px !important;
+  transform: scaleX(-1) !important;
+  margin-left: 5% !important;
+}
+.truck p{
+  font-size: 21px !important;
+  font-weight: 750 !important;
+  font-family: Chicken Quiche !important;  
+  padding-left: 5% !important;
+}
+.free a{
+  font-size: 25px !important;
+  font-family: Chicken Quiche !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+.free p{
+  font-size: 17px !important;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+.product{
+  background-color: black!important;
+}
+.product h2{
+  padding-top: 7%  !important;
+  font-family: Chicken Quiche;
+  font-size: 45px !important;
+  color: white;
+}
+.like h2{
+  padding-top: 2%  !important;
+  font-family: Chicken Quiche;
+  font-size: 45px !important;
+  color: rgba(0, 0, 0, 0.818) !important;
+}
+.product h3{
+  padding-top: 4%  !important;
+  font-family: Chicken Quiche;
+  font-size: 30px !important;
+  color: white;
+}
+.product h6{
+  color: white !important;
+  padding: 1% 0% 2% 0% !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 21px !important;
+
+}
+.product p{
+  color: white !important;
+  padding: 1% 0% 2% 0% !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px !important;
+
+}
+.product hr{
+  color: blue !important;
+}
+.product ul li{
+  color: white !important;
+  padding: 1% 0% 2% 0% !important;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px !important;
+}
+.team h1{
+    color: white !important;
+    font-size: 20px !important;
+    padding: 95% 0% 0% 2% !important;
+    font-family: Chicken Quiche !important;
+}
+
+.team h2{
+    color: white !important;
+    font-size: 20px !important;
+    padding: 0% 0% 0% 2% !important ;
+    font-family: Chicken Quiche !important;
+
+}
+
+.t1{  
+  background-image: url(images/team1.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+  background-size: 100% 100% !important;  
+}
+.t2{
+  background-image: url(images/team2.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+
+  background-size: 100% 100% !important;  
+
+}
+.t3{
+   background-image: url(images/team3.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+  background-size: 100% 100% !important;  
+}
+.t4{  
+  background-image: url(images/team4.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+  
+  background-size: 100% 100% !important;  
+  
+}
+.t5{  
+  background-image: url(images/team5.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+  
+  background-size: 100% 100% !important;  
+  
+}
+.t6{  
+  background-image: url(images/team6.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+  
+  background-size: 100% 100% !important;  
+  
+}
+.t7{  
+  background-image: url(images/team7.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+  
+  background-size: 100% 100% !important;  
+  
+}
+.t8{  
+  background-image: url(images/team8.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+    background-size: 100% 100% !important;
+  background-size: 100% 100% !important;  
+  
+}
+.t9{  
+  background-image: url(images/team9.jpg);
+  height: 550px  !important;
+  width: 100% !important;
+    background-size: 100% 100% !important;
+  background-size: 100% 100% !important;  
+  
+}
+.figures h1{
+  padding-top: 2% !important;
+  font-family: Chicken Quiche !important;
+  color: rgb(0, 59, 56) !important;
+  font-size: 75px !important;  
+}
+.figures h2{
+   padding-top: 5%  !important;
+    font-family: Chicken Quiche !important;
+  color: rgb(0, 59, 56) !important;
+  font-size: 55px !important;  
+}
+
+.figures h3{
+  padding-bottom: 7% !important;
+  font-family: Chicken Quiche !important;
+  color: rgb(0, 59, 56) !important;
+  font-size: 35px !important;  
+}
+.experince{
+  background-image: url(images/M-21-Experienced-Players-RL.jpg);
+  height: 660px !important;
+  width: 100% !important;
+    background-size: 100% 100% !important;
+}
+.tops h1{
+    padding-top: 15% !important;
+    padding-left: 8% !important;
+    padding-bottom: -5% !important;
+  font-family: Chicken Quiche !important;
+  font-size: 55px !important;
+  color: white !important;
+}
+.tops h2{ 
+    font-weight: 900 !important;
+    padding-left: 8% !important;
+  font-family: Chicken Quiche !important;
+  font-size: 75px !important;
+  color: white !important;
+}
+.tops h3{
+    font-weight: 100 !important;
+    padding-top: 15% !important;
+    padding-left: 8% !important;  
+  font-size: 35px !important;
+  color: white !important;
+}
+.tops p{
+    padding-top: 3% !important;
+padding-left: 8% !important;
+      font-size: 18px !important;
+     color: white !important;
+}
+.headquarter h1{
+    padding-top: 5% !important;
+    padding-left: 2% !important;
+    padding-bottom: -5% !important;
+  font-family: Chicken Quiche !important;
+  font-size: 55px !important;
+  color: black !important;
+}
+.headquarter h6{
+    padding-left: 2% !important;
+    font-size: 35px !important;
+    font-weight: 400 !important;  
+    color: black !important;
+}
+.headquarter img{
+      background-size: 100% 100% !important;
+    width: 100% !important;
+    height: 700px !important;
+    padding: 1% 2% 1% 2% !important;
+}
+.apun1{
+    margin-top: 2% !important;
+    background-color: rgb(48, 48, 48) !important;
+   
+}
+.apun1 img{    
+    padding: 4% 4% 0% 8% !important;
+    height: 750px !important;
+}
+.apun1 h1{
+    font-family: Chicken Quiche;
+    font-size: 100px !important;
+    color:  rgb(223, 223, 223) !important ;
+    padding: 10% 0% 0% 5% !important;
+}
+.apun1 h2{
+    font-family: Chicken Quiche;
+    font-size: 140px !important;
+    color: white !important;
+    margin-left: 20px !important;
+}
+.apun1 p{
+    font-size: 22px !important;
+    color: white !important;
+    text-align: justify !important;
+
+}
+@media only screen and (max-width: 640px) and (min-width: 360px)  {
+.footer{
+    padding-top: 8% !important;
+}
+.footer h2{     
+    font-size: 70px !important;
+}
+.footer h6{
+    font-size: 18px !important;
+}
+.footer p{
+    font-size: 15px !important;
+}
+.babu h4{
+    text-align: center !important;
+    margin-left: 2% !important;
+}
+.babu3 h2{
+    font-size: 70px !important;
+}
+.babu h2{
+    font-size: 70px !important;
+}
+.babu3 h1{
+        font-size: 70px !important;
+}
+.babu h1{
+        font-size: 70px !important;
+}
+.pri h2{
+    margin-left: 25% !important;
+    padding-top: 8% !important;
+}
+.pri h5{
+    margin-left: 34% !important;
+    padding-top: 3% !important;
+}
+.price1{
+    margin-left: 30% !important;
+}
+
+.app img{
+    margin-left: 30% !important;
+}
+.carousel-item img{
+    height: 350px !important;
+    width: 100% !important;
+    background-size: 100% 100% !important;
+}
+.carousel-item h2{
+    font-size: 30px !important;
+}
+.carousel-item h3{
+    font-size: 30px !important;
+}
+.carousel-item h4{
+    font-size: 30px !important;
+}
+.btn-info{
+    font-size: 15px !important;
+    margin-top: 1% !important;
+    margin-left: 6% !important;
+}
+.btn-secondary{
+    font-size: 15px !important;
+    margin-top: 1% !important;
+}
+.trend h2{
+    padding-top: -40% !important;
+}
+.trend h3{
+    padding-top: -40% !important;
+}
+.cart select{
+  padding: 2% 75% 2% 10% !important;
+}
+.details{
+    margin-left: 10% !important;
+}
+.btn-light{
+    margin-top: 2% !important;
+       padding: 4% 26% 4% 28%!important;   
+}
+.product h2{
+    font-size: 25px !important;
+}
+.product h3{
+    font-size: 35px !important;
+}
+.product h6{
+    font-size: 18px !important;
+}
+.product p{
+    font-size: 18px !important;
+}
+.babu2{
+    background-size: 100% 100% !important;
+    height: 500px !important;
+}
+.tops h1{
+    padding-top: 30% !important;
+    padding-left: 4% !important;
+    font-size: 45px !important;
+}
+.tops h3{
+    padding-top: 25% !important;
+    padding-left: 2% !important;
+    font-size: 24px !important;
+}
+.tops h2{
+    padding-left: 2% !important;
+    font-size: 45px !important;
+}
+.tops p{
+    text-align: justify !important;
+    padding-left: 2% !important;
+    font-size: 16px !important;
+    color: rgba(255, 255, 255, 0.63) !important;
+}
+.t1{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t2{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t3{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t4{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t5{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t6{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t7{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t8{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+.t9{
+    height: 350px !important;
+    margin-top: 5% !important;
+}
+
+.termsconditions h1{
+    font-size: 35px !important;
+    margin-top: 5% !important;
+}
+.figures h2{
+    font-size: 35px !important;
+}
+.figures h1{
+    font-size: 45px !important;
+}
+.headquarter h1{
+    font-size: 35px !important;
+}
+.headquarter h6{
+    font-size: 25px !important;
+}
+.Frequent h2{
+    margin-left: 10% !important;
+    text-align: left !important;
+    font-size: 30px !important;
+    padding: 10% 60% 10% 20% !important;
+}
+.dabba{
+    margin-left: 15% !important;
+}
+
+}
+
+
+@media only screen and (max-width: 1100px) and (min-width: 900px)  {
+    .signtop{
+        display: none !important;}
+    .signtop1{
+       float: left;
+    }
+}
